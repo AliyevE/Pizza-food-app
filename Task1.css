@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1A1A1A;
+}
+
+.header {
+
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("https://assets.nicepagecdn.com/d2cc3eaa/3955079/images/xxxmin.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    padding-top: 25vh;
+
+
+}
+
+.header h1 {
+
+    color: white;
+    font-size: 72px;
+    text-align: center;
+    font-family: 'Palanquin Dark', sans-serif;
+    font-weight: 400;
+
+}
+
+.container {
+
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -75px;
+}
+
+.grid_container {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
+    gap: 15px;
+
+}
+
+.grid_card {
+
+    width: 368px;
+    background-color: white;
+    padding: 30px;
+    height: 525px;
+}
+
+.grid_card img {
+
+    width: 100%;
+    height: 243px;
+}
+
+.grid_card h2 {
+
+    font-size: 24px;
+
+    font-family: 'Palanquin Dark', sans-serif;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.grid_card p {
+
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.grid_card h4 {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    color: #e73d0c;
+
+}
+
+
+.flex_container {
+
+    display: flex;
+    width: 1140px;
+    gap: 260px;
+    justify-content: start;
+    text-align: start;
+    padding-bottom: 130px;
+
+}
+
+.flex_container h1 {
+
+    font-size: 65px;
+    font-family: 'Palanquin Dark', sans-serif;
+    color: #e73d0c;
+    font-weight: 400;
+    margin-top: 245px;
+
+}
+
+.flex_container h3 {
+
+    color: white;
+    font-size: 24px;
+    font-family: 'Palanquin Dark', sans-serif;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+.flex_container p {
+    font-size: 18px;
+    color: #999999;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 30px;
+}
+
+.container_2{
+    background-color: white;
+    padding-top: 140px;
+   
+
+}
+.testimonial_flex_container{
+    display: flex;
+    gap: 65px;
+    background-color: white;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 180px;
+   
+    
+}
+
+.flex_left2 h1{
+    font-size: 65px;
+    /* margin-top: 35px; */
+    font-family: 'Palanquin Dark', sans-serif;
+    font-weight: 400;
+
+}
+
+.flex_left2 img{
+
+    height: 516px;
+    width: 516px;
+    margin-top: 35px;
+    margin-right: 15px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+.flex_right2 svg{
+    width: 40px;
+    height: 30px;
+    fill: #e73d0c;
+    margin-top: 50px;
+
+}
+
+.flex_right2 p{
+
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 13px;
+    color: #111;
+
+}
+
+.flex_right2 h3{
+
+    font-size: 20px;
+    font-family: 'Palanquin Dark', sans-serif;
+    color: #111;
+    margin-top: 30px;
+}
+
+.ending{
+
+    width: 100%;
+    height: 560px;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("https://assets.nicepagecdn.com/d2cc3eaa/3955079/images/sd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    padding-top: 25vh;
+}
+
+.flex_ending{
+
+    width: 713px;
+margin-left: auto;
+margin-right: auto;
+    display: flex;
+    gap: 20px;
+    
+}
+
+.flex_card_ending{
+    text-align: center;
+    width: 224px;
+    background-color: white;
+    padding: 20px;
+}
+
+.flex_card_ending h2{
+
+    font-size: 22px;
+    font-family: 'Palanquin Dark', sans-serif;
+
+}
+.flex_card_ending p{
+    font-size: 18px;
+    margin-top: 22px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.flex_card_ending a{
+
+    font-size: 18px;
+    margin-top: 22px;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    color: #e73d0c;
+}
